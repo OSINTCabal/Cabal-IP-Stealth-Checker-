@@ -1,0 +1,11 @@
+# CabalStealthChecker dependencies
+# All core functionality uses Python standard library only — no installs required.
+#
+# Optional: install python-dotenv to load your API key from a .env file
+#   pip install python-dotenv
+#
+# Without python-dotenv, set your key via environment variable:
+#   export PROXYCHECK_API_KEY="your_key_here"   (Linux/macOS)
+#   set PROXYCHECK_API_KEY=your_key_here        (Windows CMD)
+
+python-dotenv>=1.0.0   # optional — comment out if not using .env
